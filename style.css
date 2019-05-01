@@ -48,7 +48,6 @@ header {
     background-position: center;
     background-attachment: fixed;
     padding-top: 10px;
-    border: 1px solid #e67e22;
 }
 
 
@@ -147,14 +146,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #e67e22;
 }
 
 .section1 .row0 {
     width: 60%;
     margin-top: 40px;
     padding: 60px;
-    margin: auto;
+    
 }
 
 span {
@@ -167,12 +165,12 @@ span {
     display: flex;
     flex-direction: row;
     color: #555;
-    
+    justify-content: center;
 }
 
 .section1 .row1 .box0, .section1 .row1 .box1, .section1 .row1 .box2, 
 .section1 .row1 .box3 {
-    flex: 1;
+    width: 20%;
     margin: 1%;
     text-align: left;
 
@@ -197,7 +195,6 @@ span {
     display: flex;
     flex-direction: column;
     margin-top: 8%;
-    border: 1px solid #e67e22;
 }
 
 .photos .meals {
@@ -254,7 +251,6 @@ span {
     background-color: #f4f4f4;
     padding-top: 3%;
     height: auto;
-    border: 1px solid #e67e22;
 }
 
 .phone .row1 {
@@ -315,7 +311,6 @@ span {
 .cities {
     display: flex;
     flex-direction: column;
-    border: 1px solid #e67e22;
 }
 
 .cities .titre {
@@ -327,13 +322,13 @@ span {
     display: flex;
     margin: auto;
     flex-direction: row;
-
+    justify-content: center;
 }
 
 .cities .row1 .box1, .cities .row1 .box2,
 .cities .row1 .box3, .cities .row1 .box4 {
-    flex: 1;
-    margin: 2%;
+    width: 20%;
+    margin: 1%;
 }
 
 .cities .row1 .city-feaure {
@@ -368,10 +363,6 @@ span {
     border: none;
 }
 
-/* .cities .row1 #twitter:hover{
-    color: blue;
-} */
-
 /* ---------------------Section Testimonials------------- */
 .testimonials {
     margin-top: 7%;
@@ -381,7 +372,6 @@ span {
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    border: 1px solid #e67e22;
 }
 
 .testimonials h2{
@@ -439,17 +429,12 @@ span {
     flex-direction: column;
     background-color: #f4f4f4;
     padding-bottom: 50px;
-    border: 1px solid #e67e22;
 }
 
-.plans .row1 {
-
-}
 
 .plans .row2 {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;   
 }
 
 .plans .row2 .col1, .plans .row2 .col2, .plans .row2 .col3 {
@@ -536,7 +521,6 @@ span {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    border: 1px solid #e67e22;
 }
 
 .section-form .row2 form {
@@ -596,7 +580,6 @@ footer {
     background-color: #333;
     padding: 50px;
     font-size: 80%; 
-    border: 1px solid #e67e22;
 }
 
 .part1{
