@@ -142,13 +142,13 @@ header {
 }
 
 /* ---------------------Section1-------------------- */
-.section1 {
+#section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section1 .row0 {
+#section1 .row0 {
     width: 60%;
     margin-top: 40px;
     padding: 60px;
@@ -161,32 +161,32 @@ span {
 }
 
 /* ----Row1------ */
-.section1 .row1 {
+#section1 .row1 {
     display: flex;
     flex-direction: row;
     color: #555;
     justify-content: center;
 }
 
-.section1 .row1 .box0, .section1 .row1 .box1, .section1 .row1 .box2, 
-.section1 .row1 .box3 {
+#section1 .row1 .box0, .section1 .row1 .box1, .section1 .row1 .box2, 
+#section1 .row1 .box3 {
     width: 20%;
     margin: 1%;
     text-align: left;
 
 }
 
-.section1 .row1 .box1 img,
-.section1 .row1 .box2 img, .section1 .row1 .box3 img{
+#section1 .row1 .box1 img,
+#section1 .row1 .box2 img, .section1 .row1 .box3 img{
     height: 60px;
     width: auto;
 }
 
-.section1 .row1 .box0 img {
+#section1 .row1 .box0 img {
     margin-bottom: 8%;
 }
 
-.section1 .row1 .box0 h3{
+#section1 .row1 .box0 h3{
     padding: 15px 0;
 }
 
@@ -245,7 +245,7 @@ span {
 }
 
 /*  --------------Section Phone------------ */
-.phone {
+#phone {
     display: flex;
     flex-direction: column;
     background-color: #f4f4f4;
@@ -253,14 +253,14 @@ span {
     height: auto;
 }
 
-.phone .row1 {
+#phone .row1 {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
     margin-bottom: 80px;
 }
 
-.phone .row1 .image {
+#phone .row1 .image {
     flex: 1;
     text-align: right;
     margin-top: 20px;
@@ -269,25 +269,25 @@ span {
     
 }
 
-.phone .row1 .image img {
+#phone .row1 .image img {
     height: 400px;
     width: auto;
     padding-right: 40px;
 }
-.phone .row1 .steps {
+#phone .row1 .steps {
     flex: 1;
     margin-top: 20px;
     margin-right: 50px;
     
 }
 
-.phone .row1 .steps .works {
+#phone .row1 .steps .works {
     margin-bottom: 50px;
     margin-top: 20px;
     
 }
 
-.phone .row1 .steps .num {
+#phone .row1 .steps .num {
     color: #e67e22;
     border: 2px solid #e67e22;
     display: inline-block;
@@ -301,47 +301,47 @@ span {
     margin-right: 25px;
 }
 
-.phone .row1 .steps a img{
+#phone .row1 .steps a img{
     height: 50px;
     width: auto;
     margin-right: 10px;
 }
 
 /* -----------------Section Cities--------------- */
-.cities {
+#cities {
     display: flex;
     flex-direction: column;
 }
 
-.cities .titre {
+#cities .titre {
     margin: auto;
     padding: 2%;
 }
 
-.cities .row1 {
+#cities .row1 {
     display: flex;
     margin: auto;
     flex-direction: row;
     justify-content: center;
 }
 
-.cities .row1 .box1, .cities .row1 .box2,
+#cities .row1 .box1, .cities .row1 .box2,
 .cities .row1 .box3, .cities .row1 .box4 {
     width: 20%;
     margin: 1%;
 }
 
-.cities .row1 .city-feaure {
+#cities .row1 .city-feaure {
     color: #555;
     font-size: 19px;
     font-weight: 300;
 }
 
-.cities .row1 img {
+#cities .row1 img {
    width: 100%;     
 }
 
-.cities .row1 .icon {
+#cities .row1 .icon {
     width: 24px;
     display: inline-block;
     text-align: center;
@@ -351,14 +351,14 @@ span {
     margin-top: -5px;
 }
 
-.cities .row1 a {
+#cities .row1 a {
     text-decoration: none;
     color: #e67e22;
     border-bottom: #e67e22 1px solid;
     padding-bottom: 2%;
 }
 
-.cities .row1 a:hover{
+#cities .row1 a:hover{
     color: #555;
     border: none;
 }
@@ -517,13 +517,13 @@ span {
 }
 
 /* -------------Section Form--------------- */
-.section-form {
+#section-form {
     background-color: #fff;
     display: flex;
     flex-direction: column;
 }
 
-.section-form .row2 form {
+#section-form .row2 form {
     width: 60%;
     margin: auto;
     
