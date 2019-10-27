@@ -168,7 +168,7 @@ span {
     justify-content: center;
 }
 
-#section1 .row1 .box0, .section1 .row1 .box1, .section1 .row1 .box2, 
+#section1 .row1 .box0, #section1 .row1 .box1, #section1 .row1 .box2, 
 #section1 .row1 .box3 {
     width: 20%;
     margin: 1%;
@@ -177,7 +177,7 @@ span {
 }
 
 #section1 .row1 .box1 img,
-#section1 .row1 .box2 img, .section1 .row1 .box3 img{
+#section1 .row1 .box2 img, #section1 .row1 .box3 img{
     height: 60px;
     width: auto;
 }
@@ -325,8 +325,8 @@ span {
     justify-content: center;
 }
 
-#cities .row1 .box1, .cities .row1 .box2,
-.cities .row1 .box3, .cities .row1 .box4 {
+#cities .row1 .box1, #cities .row1 .box2,
+#cities .row1 .box3, #cities .row1 .box4 {
     width: 20%;
     margin: 1%;
 }
